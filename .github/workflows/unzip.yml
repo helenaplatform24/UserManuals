@@ -35,4 +35,4 @@ jobs:
         with:
           message: "Add the very useful text file"
           add: ". --force"
-          cwd: "./content/"
+          cwd: "./"
