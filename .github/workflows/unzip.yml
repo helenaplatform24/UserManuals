@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Unzip files in subfolder
-        run: unzip  ./**/*.zip -d $(dirname $(find ./**/*.zip))
+        run: unzip -o  ./**/*.zip -d $(dirname $(find ./**/*.zip))
       # Runs a single command using the runners shell
       - name: Delete zip in subfolder
         run: rm ./**/*.zip
